@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Downloads — CarbonMC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- reuse header same as index.html -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <svg class="brand-icon" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="2" y="2" width="20" height="20" rx="4" fill="currentColor" />
+        </svg>
+        <span class="brand-text">CarbonMC</span>
+      </a>
+      <nav class="nav" id="mainNav">
+        <a href="downloads.html" class="nav-link">Downloads</a>
+        <a href="docs.html" class="nav-link">Documentation</a>
+        <a href="community.html" class="nav-link">Community</a>
+        <a href="changelog.html" class="nav-link">Changelog</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-ghost" id="searchToggle" aria-label="Open search">🔍</button>
+        <a class="btn btn-primary" href="downloads.html">Download</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="search-panel" id="searchPanel" aria-hidden="true">
+      <div class="container">
+        <input id="searchInput" class="search-input" placeholder="Search docs, downloads, or community..." />
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="section-title">Downloads</h1>
+    <p>Welcome to the download section. Choose from the latest builds, stable releases or previous versions.</p>
+
+    <table class="download-table">
+      <thead>
+        <tr>
+          <th>Version</th>
+          <th>Release Date</th>
+          <th>Channel</th>
+          <th>Download</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>v1.25.0</td>
+          <td>Oct 22, 2025</td>
+          <td>Stable</td>
+          <td><a class="btn btn-secondary" href="#">Download</a></td>
+        </tr>
+        <tr>
+          <td>v1.24.2</td>
+          <td>Sep 15, 2025</td>
+          <td>Stable</td>
+          <td><a class="btn btn-secondary" href="#">Download</a></td>
+        </tr>
+        <tr>
+          <td>v1.26.0-RC1</td>
+          <td>Oct 20, 2025</td>
+          <td>Release Candidate</td>
+          <td><a class="btn btn-secondary" href="#">Download</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="brand small">
+          <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4" fill="currentColor" /></svg>
+          <span>CarbonMC</span>
+        </div>
+        <small>© <span id="year"></span> CarbonMC — Built with care.</small>
+      </div>
+      <div class="footer-right">
+        <a href="privacy.html">Privacy</a>
+        <a href="security.html">Security</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
