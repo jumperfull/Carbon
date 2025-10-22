@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CarbonMC — Lightweight Minecraft server builds</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <svg class="brand-icon" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="2" y="2" width="20" height="20" rx="4" fill="currentColor" />
+        </svg>
+        <span class="brand-text">CarbonMC</span>
+      </a>
+
+      <nav class="nav" id="mainNav">
+        <a href="#" class="nav-link">Downloads</a>
+        <a href="#" class="nav-link">Documentation</a>
+        <a href="#" class="nav-link">Community</a>
+        <a href="#" class="nav-link">Changelog</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-ghost" id="searchToggle" aria-label="Open search">🔍</button>
+        <a class="btn btn-primary" href="#">Download</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="search-panel" id="searchPanel" aria-hidden="true">
+      <div class="container">
+        <input id="searchInput" class="search-input" placeholder="Search docs, downloads, or community..." />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Fast, modular, and stable Minecraft server software</h1>
+          <p class="lead">CarbonMC is a lightweight, extensible server runtime focused on performance and compatibility. Build and run Minecraft servers with confidence.</p>
+
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#">Download Latest</a>
+            <a class="btn btn-ghost" href="#">View Documentation</a>
+          </div>
+
+          <ul class="hero-stats">
+            <li><strong>1.2M</strong><span>Downloads</span></li>
+            <li><strong>120+</strong><span>Plugins</span></li>
+            <li><strong>3.8</strong><span>ms avg. tick</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-panel">
+          <div class="panel-card">
+            <div class="panel-card-title">Latest Build</div>
+            <div class="panel-card-body">
+              <div class="version">v1.24.2</div>
+              <div class="meta">Published: Oct 20, 2025</div>
+              <div class="panel-actions">
+                <a class="btn btn-secondary" href="#">Download</a>
+                <a class="btn btn-link" href="#">Release notes</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-card small">
+            <div class="panel-card-title">Support</div>
+            <div class="panel-card-body">
+              <p>Join our Discord or browse the knowledge base to get help fast.</p>
+              <a class="btn btn-ghost sm" href="#">Join Discord</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards container">
+      <h2 class="section-title">Why CarbonMC</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Compatibility</h3>
+          <p>Designed to maximize plugin compatibility and reduce breakage between versions.</p>
+          <a class="card-link" href="#">Learn more →</a>
+        </article>
+
+        <article class="card">
+          <h3>Performance</h3>
+          <p>Optimized core systems and minimal default features to keep latency low.</p>
+          <a class="card-link" href="#">Benchmarks →</a>
+        </article>
+
+        <article class="card">
+          <h3>Extensible</h3>
+          <p>Plugin-friendly architecture and clear extension points for developers.</p>
+          <a class="card-link" href="#">Developer docs →</a>
+        </article>
+
+        <article class="card">
+          <h3>Secure</h3>
+          <p>Regular security updates and a dedicated security policy for server owners.</p>
+          <a class="card-link" href="#">Security →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="container showcase">
+      <h2 class="section-title">Recent news</h2>
+      <div class="news-grid">
+        <article class="news">
+          <h4>CarbonMC 1.24.2 released</h4>
+          <p>Minor fixes and improved plugin compatibility for the 1.24 runtime.</p>
+          <a href="#" class="card-link">Read release notes →</a>
+        </article>
+
+        <article class="news">
+          <h4>Community Plugins spotlight</h4>
+          <p>Check out top plugin picks from our community team this month.</p>
+          <a href="#" class="card-link">Explore →</a>
+        </article>
+
+        <article class="news">
+          <h4>Server hardening guide</h4>
+          <p>Best practices to keep your server fast and safe for players.</p>
+          <a href="#" class="card-link">Read guide →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="brand small">
+          <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4" fill="currentColor" /></svg>
+          <span>CarbonMC</span>
+        </div>
+        <small>© <span id="year"></span> CarbonMC — Built with care.</small>
+      </div>
+
+      <div class="footer-right">
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
